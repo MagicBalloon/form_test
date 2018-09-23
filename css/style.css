@@ -1,0 +1,135 @@
+/*------------------------------------------*/
+/*  General
+/*------------------------------------------*/
+  
+  body {background-color: #f8f9fa;}
+
+/*------------------------------------------*/
+/*  Form
+/*------------------------------------------*/
+
+  .contact h5.styled {
+    color: #6c757d;
+    font-size: 1rem;
+    font-style: italic;
+    border-bottom: 1px solid #6c757d;
+    font-weight: normal;
+  }
+  .contact h5.styled span {
+    background: #f8f9fa;
+    padding: 0 10px 0 0;
+    top: 8px;
+    position: relative;
+  }
+  .contact .progress {
+    height: 38px;
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+  .contact .progress-bar.first {background: #64d87e;}
+  .contact .progress-bar.first[aria-valuenow='66.67'] {background: #28a745;}
+  .contact .progress-bar.first[aria-valuenow='100.00'] {background: #1e7e34;}
+  .contact .progress.second {height: 38px;}
+
+/*------------------------------------------*/
+/*  Custom styled button
+/*------------------------------------------*/
+
+  .btn-styled {
+    cursor: pointer;
+    margin: 0 10px 0 0;
+    font-weight: 400;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid #3C709C;
+    padding: .575rem .95rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background-color: #fff;
+    color: #3C709C;
+  }
+  .btn-styled:hover {
+    border: 1px solid transparent;
+    background-color: #3C709C;
+    color: #fff;
+  }
+  .btn-styled,
+  .btn-styled:hover, 
+  .btn-styled:focus {
+    text-decoration: none;
+    outline: none;
+  }
+
+/*------------------------------------------*/
+/*  Resume 
+/*------------------------------------------*/
+
+  #resume {
+    display: none;
+  }
+
+  #resume.active {
+    display: block;
+  }
+
+  .progress-item {position: relative;}
+  .progress-item .progress-title {
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  .progress-item .progress {
+    height: 8px;
+    box-shadow: none;
+    border-color: #f3f3f3;
+    overflow: visible;
+    border-radius: 4px;
+  }
+  .progress-item .progress-bar {
+    background-color: #FFC107;
+    box-shadow: none;
+    text-align: right;
+    display: block;
+    float: left;
+    position: relative;
+    border-radius: 4px 0 0 4px;
+  }
+  .progress-item .progress-percent {
+    font-size: 10px;
+    background-color: #313131;
+    position: absolute;
+    top: -24px;
+    right: -36px;
+    padding: 0 8px;
+    border-radius: 3px;
+    z-index: 11111;
+  }
+  .progress-item .progress-percent::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    border-top: 6px solid #313131;
+    border-right: 8px solid transparent;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
